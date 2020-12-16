@@ -1,4 +1,8 @@
 ## Changelog
+  * 19.6.0.0
+    * This version of the adapters has been certified with AdMob 19.6.0 and MoPub 5.15.0.
+    * Remove the deprecated `onAdLeftApplication()` callback. As a result, click is no longer tracked for interstitial (in addition to rewarded video).
+
   * 19.5.0.3
     * Fail rewarded video playback errors using `VIDEO_PLAYBACK_ERROR` so publishers can request for the next rewarded video.
 
