@@ -1,4 +1,13 @@
 ## Changelog
+  * 8.2.1.0
+    * This version of the adapters has been certified with Chartboost 8.2.1 and MoPub 5.17.0.
+
+  * 8.2.0.3
+    * Fix a bug where the rewarded video adapter fails to request a new ad after a show-related error happens.
+
+  * 8.2.0.2
+    * Prevent Chartboost SDK from initializing same configuration cases.
+
   * 8.2.0.1
     * Fix a bug where Chartboost SDK initialization can get called multiple times unnecessarily.
 

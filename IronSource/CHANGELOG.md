@@ -1,4 +1,30 @@
 ## Changelog
+ * 7.1.6.0
+    * This version of the adapters has been certified with ironSource 7.1.6 and MoPub SDK 5.17.0.
+    * ironSource's artifacts are now distributed via GitHub. For migration information, visit [this article](https://developers.ironsrc.com/ironsource-mobile/android/ironsource-artifacts-github/).
+
+ * 7.1.5.1.1
+    * Remove mopub-sdk as a required dependency from POM file.
+
+ * 7.1.5.1.0
+    * This version of the adapters has been certified with ironSource 7.1.5.1 and MoPub SDK 5.16.4.
+
+ * 7.1.5.0
+    * This version of the adapters has been certified with ironSource 7.1.5 and MoPub SDK 5.16.4.
+
+ * 7.1.3.0
+    * This version of the adapters has been certified with ironSource 7.1.3 and MoPub SDK 5.16.2.
+    * Add support for ironSource SDK to initialize with `Context` instead of `Activity`.
+
+ * 7.1.0.2.0
+    * This version of the adapters has been certified with ironSource 7.1.0.2 and MoPub SDK 5.15.0.
+
+ * 7.1.0.1.0
+    * This version of the adapters has been certified with ironSource 7.1.0.1 and MoPub SDK 5.15.0.
+
+ * 7.0.4.1.1
+    * Fix a bug where the rewarded video adapter fails to request a new ad after a show-related error happens.
+
  * 7.0.4.1.0
     * This version of the adapters has been certified with ironSource 7.0.4.1 and MoPub SDK 5.15.0.
     * Only for side by side mediation cases, ironSource adapters now optionally accept ad unit types to initialize. [Related documentation here.](https://developers.mopub.com/publishers/mediation/networks/ironsource/)
